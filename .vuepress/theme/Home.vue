@@ -7,7 +7,6 @@
                         <img class="max-w-xl w-full inline-block" src="https://cdn.pterodactyl.io/logos/new/pterodactyl_logo_transparent.png" alt="Pterodactyl">
                     </div>
                     <div class="mt-4">
-                        <!-- <a class="btn hidden md:inline-block" href="https://demo.pterodactyl.io" target="_blank" rel="nofollow noopener">Demo</a> -->
                         <router-link class="btn inline-block" to="/panel/getting_started.html">Let's Get Started!</router-link>
                     </div>
                 </div>
@@ -17,56 +16,54 @@
             <div class="container text-center">
                 <h1 class="text-blue mb-4">Pterodactyl Panel</h1>
                 <h3 class="border-0 font-normal leading-normal mx-auto" style="max-width: 50rem">
-                    Pterodactyl&reg; is a free, open-source game server management panel built with PHP, React, and Go.
-                    Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers
-                    while exposing a beautiful and intuitive UI to end users.
+                    PterodactylManager&reg; is a free, open-source extension for Pterodactyl&reg; that allows you to manage your addons and themes from your panel.
                 </h3>
                 <h3 class="border-0 leading-normal mx-auto mt-4" style="max-width: 50rem">
-                    Stop settling for less. Make game servers a first class citizen on your platform.
+                    Stop wasting your time on outdated or complicated addon installations. Just drag, drop or click!
                 </h3>
                 <img class="max-w-lg w-full m-4 inline-block" src="https://cdn.pterodactyl.io/site-assets/mockup-macbook-grey-1.0.png">
             </div>
         </div>
         <div class="section bg-blue text-grey-lightest">
             <div class="container text-center">
-                <h1 class="mb-4">Why Pterodactyl&reg;</h1>
+                <h1 class="mb-4">Why PterodactylManager&reg;</h1>
                 <div class="flex flex-wrap">
                     <div class="feature">
                         <span><i class="icon icon-lock"></i></span>
-                        <h3>Security First</h3>
-                        <p>Security is a first-class citizen on this platform with bcrypt hashing, AES-256-CBC encryption, and HTTPS support out of the box.</p>
+                        <h3>Compability Checker</h3>
+                        <p>No more unsupported addons that break your entire panel. With our integrated compability checker you only install the addons that are working for you.</p>
                     </div>
                     <div class="feature">
                         <span><i class="icon icon-beaker"></i></span>
-                        <h3>Modern Tooling</h3>
-                        <p>Built on a modern stack utilizing the best design practices that make it easy to jump in and make modifications.</p>
+                        <h3>Update Checker</h3>
+                        <p>We integrated an easy way to automaticly update all of your addons and themes to the latest version.</p>
                     </div>
                     <div class="feature">
                         <span><i class="icon icon-anchor"></i></span>
-                        <h3>Docker to the Core</h3>
-                        <p>All servers run in isolated Docker containers that limit attack vectors, provide strict resource limits, and provide environments tailored to each specific game.</p>
+                        <h3>Clean addon structure</h3>
+                        <p>To provide the best compability and support for you addons, every addon should be build after our <a href="/developer/guidelines">Developer Guidelines</a>.</p>
                     </div>
                     <div class="feature">
                         <span><i class="icon icon-wallet"></i></span>
-                        <h3>Free & Open Source</h3>
-                        <p>Pterodactyl is 100% free and licensed under a MIT license. All of our code is completely open source as well.</p>
+                        <h3>Free to use</h3>
+                        <p>PterodactylManager is 100% free. To support the project you can buy our addons from the market.</p>
                     </div>
                     <div class="feature">
                         <span><i class="icon icon-browser"></i></span>
                         <h3>User Friendly</h3>
-                        <p>Save the furious clicking and screaming for Overwatch. Pterodactyl's interface is designed so well even Hanzo can use it.</p>
+                        <p>Drag and drop as well as one click installations are the future. Don't do the hard work manually.</p>
                     </div>
                     <div class="feature">
                         <span><i class="icon icon-expand"></i></span>
-                        <h3>Scalable</h3>
-                        <p>Whether you're a hosting company, the next Hyplex, or just some dudes playing video games, we've got you covered.</p>
+                        <h3>Extendable</h3>
+                        <p>We provide you with the best panel extensions right out of the box. Just enable them in the addon manager.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="section bg-white">
             <div class="text-center">
-                <h1>Screenshots</h1>
+                <h1>Screenshots (to be changed)</h1>
                 <div class="screenshots">
                     <slick ref="slick" :options="slickOptions">
                         <a href="https://cdn.pterodactyl.io/site-assets/carousel/screenshot-1.png">
@@ -112,7 +109,7 @@
                 <p class="m-4">Ready to fly on the Pterodactyl?</p>
                 <div class="mt-4">
                     <router-link class="btn inline-block" to="/project/introduction.html">About the project</router-link>
-                    <a class="btn inline-block" href="https://discord.gg/pterodactyl">Discord</a>
+                    <a class="btn inline-block" href="https://discord.gg/devsky">Discord</a>
                 </div>
             </div>
         </div>
@@ -124,21 +121,15 @@
                 <div class="text-left md:flex">
                     <div class="flex-none w-full md:w-1/2 md:pr-12">
                         <p class="my-4">
-                            Since 2015 Pterodactyl&reg; has been delivering robust, performant, and secure software that allows
-                            individuals, networks, and hosting companies to run game servers at scale; easily. Best of all?
-                            No exorbitant monthly costs.
+                            Since 2022 PterodactylManager&reg; helps you to manage your Pterodactyl server.
                         </p>
                         <p class="my-4">
-                            Take the plunge today and discover why thousands of users trust Pterodactyl&reg; to manage their
-                            game servers.
+                            We are a team of developers who love to create software.
                         </p>
                     </div>
                     <div class="hidden md:block md:flex-1 md:pr-12">
-                        <p><a class="text-grey-lightest" href="https://github.com/pterodactyl">GitHub</a></p>
-                        <p><a class="text-grey-lightest" href="https://github.com/sponsors/DaneEveritt">Sponsor</a></p>
-                        <p><a class="text-grey-lightest" href="https://paypal.me/PterodactylSoftware">Donate</a></p>
+                        <p><a class="text-grey-lightest" href="https://github.com/MelionCloud">GitHub</a></p>
                         <p><a class="text-grey-lightest" href="/panel/troubleshooting.html">Troubleshooting</a></p>
-                        <p><a class="text-grey-lightest" href="https://github.com/parkervcp/eggs">Additional Game Configurations</a></p>
                     </div>
                     <div class="text-center mt-8 md:flex-1 md:mt-0">
                         <a href="https://discord.gg/pterodactyl" target="_blank" rel="nofollow noopener">
@@ -146,7 +137,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="footer">MIT Licensed | Pterodactyl&reg; Copyright &copy; 2015 - 2022 Dane Everitt & contributors.</div>
+                <div class="footer">PterodactylManager&reg; Copyright &copy; 2022 DevSky.one</div>
             </div>
         </div>
     </div>
