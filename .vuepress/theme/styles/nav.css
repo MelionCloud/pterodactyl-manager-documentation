@@ -76,7 +76,7 @@
             @apply .w-full;
 
             .suggestions {
-                @apply .bg-white .rounded .border .p-2 .text-left .inline-block .w-2/3;
+                @apply .bg-grey-darkest .rounded .border .p-2 .text-left .inline-block .w-2/3;
                 left: 0;
                 margin-top: -0.3rem;
                 list-style: none;

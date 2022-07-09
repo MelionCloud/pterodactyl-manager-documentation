@@ -14,14 +14,14 @@
         </div>
         <div class="section bg-white">
             <div class="container text-center">
-                <h1 class="text-blue mb-4">Pterodactyl Panel</h1>
+                <h1 class="text-blue mb-4">Pterodactyl Manager</h1>
                 <h3 class="border-0 font-normal leading-normal mx-auto" style="max-width: 50rem">
                     PterodactylManager&reg; is a free, open-source extension for Pterodactyl&reg; that allows you to manage your addons and themes from your panel.
                 </h3>
                 <h3 class="border-0 leading-normal mx-auto mt-4" style="max-width: 50rem">
                     Stop wasting your time on outdated or complicated addon installations. Just drag, drop or click!
                 </h3>
-                <img class="max-w-lg w-full m-4 inline-block" src="https://cdn.pterodactyl.io/site-assets/mockup-macbook-grey-1.0.png">
+                <img class="max-w-lg w-full m-4 inline-block" src="https://coasterfreak.de/assets/media/pteroaddons/mockup-macbook-grey-1.1.png">
             </div>
         </div>
         <div class="section bg-blue text-grey-lightest">
@@ -132,7 +132,7 @@
                         <p><a class="text-grey-lightest" href="/panel/troubleshooting.html">Troubleshooting</a></p>
                     </div>
                     <div class="text-center mt-8 md:flex-1 md:mt-0">
-                        <a href="https://discord.gg/pterodactyl" target="_blank" rel="nofollow noopener">
+                        <a href="https://discord.gg/devsky" target="_blank" rel="nofollow noopener">
                             <img src="https://cdn.pterodactyl.io/site-assets/discord.png" class="w-3/4">
                         </a>
                     </div>

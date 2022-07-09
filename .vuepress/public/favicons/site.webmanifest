@@ -1,6 +1,6 @@
 {
-    "name": "Pterodactyl",
-    "short_name": "Pterodactyl",
+    "name": "Pterodactyl Manager",
+    "short_name": "PterodactylManager",
     "icons": [
         {
             "src": "/favicons/android-chrome-192x192.png",
