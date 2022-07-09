@@ -23,6 +23,9 @@ created on nodes, and you can have multiple servers per node.
 
 **Yolks**  — A curated collection of core docker images that can be used with Pterodactyl's Egg system.
 
+**Addon** — An addon is something external created by a third party that can be installed on the panel or wings.
+
+**Theme** — A theme is a collection of custom CSS and JavaScript files that can be applied in order to change the apperiance of the panel.
 
 ## Simple Setup Diagram
 ![](./../.vuepress/public/simple_setup_diagram.png)

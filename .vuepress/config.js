@@ -50,75 +50,11 @@ module.exports = {
                 link: '/project/introduction.md',
             },
             {
-                text: 'Community Guides',
-                link: '/community/about.md',
-            },
-            {
                 text: 'Get Help',
                 link: 'https://discord.gg/devsky'
             }
         ],
         sidebar: {
-            '/community/': [
-                {
-                    title: 'Community Guides',
-                    collapsable: false,
-                    children: [
-                        '/community/about.md',
-                    ]
-                },
-                {
-                    title: 'Panel Installation',
-                    collapsable: false,
-                    children: [
-                        '/community/installation-guides/panel/centos7.md',
-                        '/community/installation-guides/panel/centos8.md',
-                        '/community/installation-guides/panel/debian9.md',
-                        '/community/installation-guides/panel/debian10.md',
-                    ]
-                },
-                {
-                    title: 'Wings Installation',
-                    collapsable: false,
-                    children: [
-                        '/community/installation-guides/wings/centos7.md',
-                        '/community/installation-guides/wings/centos8.md',
-                        '/community/installation-guides/wings/debian9.md',
-                        '/community/installation-guides/wings/debian10.md',
-                    ]
-                },
-                {
-                    title: 'Creating Eggs',
-                    collapsable: false,
-                    children: [
-                        '/community/config/eggs/creating_a_custom_egg.md',
-                        '/community/config/eggs/creating_a_custom_image.md',
-                    ],
-                },
-                {
-                    title: 'Game Configuration',
-                    collapsable: false,
-                    children: [
-                        '/community/games/minecraft.md',
-                    ],
-                },
-                {
-                    title: 'Tutorials',
-                    collapsable: false,
-                    children: [
-                        '/community/config/nodes/add_node.md',
-                        '/community/tutorials/artisan.md',
-                    ],
-                },
-                {
-                    title: 'Customization',
-                    collapsable: false,
-                    children: [
-                        '/community/customization/panel.md',
-                        '/community/customization/wings.md',
-                    ],
-                },
-            ],
             '/': [
                 {
                     title: 'Project Information',
@@ -131,67 +67,12 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'Panel',
-                    collapsable: false,
-                    path: '/panel/',
-                    currentVersion: '1.0',
-                    versions: [
-                        {
-                            title: '1.9',
-                            name: '1.0',
-                            status: 'stable',
-                            children: [
-                                '/getting_started',
-                                '/webserver_configuration',
-                                '/additional_configuration',
-                                '/updating',
-                                '/troubleshooting',
-                                '/legacy_upgrade',
-                            ]
-                        }
-                    ]
-                },
-                {
-                    title: 'Wings',
-                    collapsable: false,
-                    path: '/wings/',
-                    currentVersion: '1.0',
-                    versions: [
-                        {
-                            title: '1.6',
-                            name: '1.0',
-                            status: 'stable',
-                            children: [
-                                '/installing',
-                                '/upgrading',
-                                '/migrating',
-                                '/configuration',
-                            ]
-                        }
-                    ]
-                },
-                {
-                    title: 'Tutorials',
+                    title: 'Development Guides',
                     collapsable: false,
                     children: [
-                        '/tutorials/mysql_setup.md',
-                        '/tutorials/creating_ssl_certificates.md',
+                        '/developer/guidelines.md'
                     ],
-                },
-                {
-                    title: 'Guides',
-                    collapsable: false,
-                    children: [
-                        '/guides/mounts.md',
-                    ],
-                },
-                {
-                    title: 'Development & Ops',
-                    collapsable: true,
-                    children: [
-                        '/ops/publish_release.md',
-                    ],
-                },
+                }
             ],
         },
     },
