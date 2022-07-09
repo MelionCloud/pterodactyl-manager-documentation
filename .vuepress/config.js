@@ -1,10 +1,10 @@
 module.exports = {
     base: '/',
-    title: 'Pterodactyl',
-    description: 'Pterodactyl is an open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while exposing a beautiful and intuitive UI to end users.',
+    title: 'PterodactylManager',
+    description: 'PterodactylManager aims to help out in every aspect of pterodactyl addon development and integration.',
     plugins: [
         ['@vuepress/google-analytics', {
-            ga: 'UA-87324178-3'
+            ga: 'G-HBN8GEJR6B'
         },],
         ['@vuepress/search', {
             searchMaxSuggestions: 10
@@ -55,11 +55,7 @@ module.exports = {
             },
             {
                 text: 'Get Help',
-                link: 'https://discord.gg/pterodactyl'
-            },
-            {
-                text: 'API',
-                link: 'https://dashflo.net/docs/api/pterodactyl/v1/'
+                link: 'https://discord.gg/devsky'
             }
         ],
         sidebar: {
