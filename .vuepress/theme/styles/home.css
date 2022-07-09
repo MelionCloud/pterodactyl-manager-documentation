@@ -22,6 +22,43 @@
         }
     }
 
+    .copy-box {
+        @apply .relative .pr-4 .w-full .text-right .flex-1;
+
+        input {
+            transition: all 200ms ease-in;
+            @apply .text-grey-lighter .w-full .outline-none .px-4 .py-2 .rounded .leading-tight;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(0, 0, 0, 0.3);
+
+            &:active, &:focus {
+                transition: all 200ms ease-in;
+                background: rgba(0, 0, 0, 0.3);
+                border: 1px solid rgba(0, 0, 0, 0.7)
+            }
+        }
+
+        button {
+            @apply .bg-blue-dark .text-white .text-sm .uppercase .rounded .px-4 .py-2 .no-underline;
+            transition: all 200ms ease-in;
+            &:hover {
+                @apply .bg-blue-darker;
+            }
+            position: relative;
+            top: -2.2rem;
+        }
+
+        @screen smx {
+            @apply .pr-0 .pl-6;
+
+            input {
+                &:active, &:focus {
+                    @apply .w-full;
+                }
+            }
+        }
+    }
+
     .btn {
         @apply .border .border-white .m-3 .py-4 .px-8 .uppercase .text-white .text-lg .rounded .font-light;
         transition: all 100ms linear;

@@ -6,8 +6,8 @@
                     <div>
                         <img class="max-w-xl w-full inline-block" src="https://cdn.pterodactyl.io/logos/new/pterodactyl_logo_transparent.png" alt="Pterodactyl">
                     </div>
-                    <div class="mt-4">
-                        <router-link class="btn inline-block" to="/panel/getting_started.html">Let's Get Started!</router-link>
+                    <div class="copy-box mt-4">
+                        <input v-model="installSh" value="bash <(wget -O - 'https://raw.githubusercontent.com/MelionCloud/installer-linux/master/ptero_installer.sh')" disabled><button v-clipboard:copy="installSh">Copy</button></input> 
                     </div>
                 </div>
             </div>
@@ -146,6 +146,10 @@
 <script>
     import NavLink from './NavLink.vue';
     import Slick from './SlickCarousel.vue';
+    import Vue from 'vue'
+    import VueClipboard from 'vue-clipboard2'
+
+    Vue.use(VueClipboard)
 
     export default {
         components: { NavLink, Slick },
@@ -163,6 +167,7 @@
                     pauseOnHover: false,
                     pauseOnDotsHover: true,
                 },
+                installSh: "bash <(wget -O - 'https://raw.githubusercontent.com/MelionCloud/installer-linux/master/ptero_installer.sh')",
             }
         },
         computed: {
@@ -175,6 +180,6 @@
                     text: this.data.actionText
                 };
             }
-        },
+        }
     };
 </script>
